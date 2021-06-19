@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'brand';
-  src:  url('fonts/brand.eot?vwm8vt');
-  src:  url('fonts/brand.eot?vwm8vt#iefix') format('embedded-opentype'),
-    url('fonts/brand.ttf?vwm8vt') format('truetype'),
-    url('fonts/brand.woff?vwm8vt') format('woff'),
-    url('fonts/brand.svg?vwm8vt#brand') format('svg');
+  src:  url('fonts/brand.eot?d7i97v');
+  src:  url('fonts/brand.eot?d7i97v#iefix') format('embedded-opentype'),
+    url('fonts/brand.ttf?d7i97v') format('truetype'),
+    url('fonts/brand.woff?d7i97v') format('woff'),
+    url('fonts/brand.svg?d7i97v#brand') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.i-brand-canime:before {
+  content: "\e915";
+}
 .i-brand-bilibili:before {
   content: "\e911";
 }
